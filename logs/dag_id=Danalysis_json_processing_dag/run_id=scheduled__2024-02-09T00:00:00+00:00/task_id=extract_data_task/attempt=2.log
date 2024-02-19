@@ -1,0 +1,4 @@
+[2024-02-10T00:29:33.450+0000] {taskinstance.py:1946} INFO - Dependencies not met for <TaskInstance: Danalysis_json_processing_dag.extract_data_task scheduled__2024-02-09T00:00:00+00:00 [up_for_retry]>, dependency 'Not In Retry Period' FAILED: Task is not ready for retry yet but will be retried automatically. Current date is 2024-02-10T00:29:33.441525+00:00 and task will be retried at 2024-02-10T00:34:16.914361+00:00.
+[2024-02-10T00:29:33.641+0000] {local_task_job_runner.py:160} INFO - Task is not able to be run
+[2024-02-10T01:18:31.177+0000] {taskinstance.py:1946} INFO - Dependencies not met for <TaskInstance: Danalysis_json_processing_dag.extract_data_task scheduled__2024-02-09T00:00:00+00:00 [failed]>, dependency 'Task Instance State' FAILED: Task is in the 'failed' state.
+[2024-02-10T01:18:31.343+0000] {local_task_job_runner.py:160} INFO - Task is not able to be run
