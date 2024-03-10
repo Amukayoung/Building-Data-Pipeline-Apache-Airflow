@@ -76,13 +76,7 @@ def make_post_request(**kwargs):
         'Connection':'keep-alive'
     }
 
-    item={
-        "id":"8590f9e8-a466-4e5f-9397",
-        "appversion":"200104",
-        "devicemodel":"SM-G973F",
-        "os":"android",
-        "osversion":"11"
-    }
+   
     # for item in deviceList:
     response = requests.post(api_endpoint, json=item)
         # logging.info(f"POST request response for item {item}: {response.text}")
